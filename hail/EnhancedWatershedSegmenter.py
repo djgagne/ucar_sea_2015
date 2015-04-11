@@ -67,7 +67,7 @@ class EnhancedWatershed(object):
         j = 1
         for i,s in enumerate(slices):
             box = labeled_grid[s]
-            size = np.count_nonzero(box.flatten()==i+1)
+            size = np.count_nonzero(box == i+1)
             if size >= min_size and box.shape[0] > 1 and box.shape[1] > 1:
                 out_grid[np.nonzero(labeled_grid==i+1)] = j
                 j += 1
