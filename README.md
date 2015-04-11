@@ -11,6 +11,8 @@ adjusted and data to explore.
 
 ## Installation
 If Git is installed on your computer, you can clone the repository with the following command:
-    `git clone https://github.com/djgagne/ucar_sea_2015.git`
+    
+`git clone https://github.com/djgagne/ucar_sea_2015.git`
+
 Otherwise you can download the repository as a zip file by clicking on the link in the lower
 right corner of the webpage.
