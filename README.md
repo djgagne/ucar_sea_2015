@@ -1,5 +1,5 @@
 # Utilizing Scientific Python Tools for the Application of Data Science Techniques to High Impact Weather Prediction
-My UCAR SEA Conference 2015 presentation comes in the form of an IPython 3.0 Notebook divided into slide sections.
+My [https://sea.ucar.edu/conference/2015/program](UCAR SEA Conference 2015) presentation comes in the form of an IPython 3.0 Notebook divided into slide sections.
 Please download the notebook as well as the associated data and code. There are lots of parameters than can be
 adjusted and data to explore.
 
