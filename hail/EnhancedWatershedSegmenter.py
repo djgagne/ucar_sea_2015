@@ -165,7 +165,7 @@ class EnhancedWatershed(object):
                     p_data = q_data[pixel]
                     if (not will_be_considered_again) and (p_data >= 0) and (p_data < center_data):
                         will_be_considered_again = True
-                    if p_data >= bin_lower:
+                    if p_data >= bin_lower and (np.abs(center_data - p_data) <= self.delta):
                         as_bin.append(pixel)
                     elif p_data >= 0:
                         as_glob.append(pixel)
